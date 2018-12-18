@@ -8,7 +8,7 @@
 #include <PCSC/winscard.h>
 #include <PCSC/wintypes.h>
 #else
-#include <PCSC/winscard.h>
+#include <winscard.h>
 #endif
 
 #ifdef _WIN32

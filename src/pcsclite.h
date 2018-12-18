@@ -6,7 +6,7 @@
 #include <PCSC/winscard.h>
 #include <PCSC/wintypes.h>
 #else
-#include <PCSC/winscard.h>
+#include <winscard.h>
 #endif
 
 class PCSCLite: public Nan::ObjectWrap {
